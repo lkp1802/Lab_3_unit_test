@@ -70,13 +70,17 @@ public class MainActivity extends AppCompatActivity {
         try {
             Double num_1 = scan_1.nextDouble();
             Double num_2 = scan_2.nextDouble();
-            sum = num_1 + num_2;
+            sum = sum_num(num_1, num_2);
         }
         catch(Exception e) {
             sum_text.setText("Invalid input. Please try again!");
             return;
         }
         sum_text.setText(sum.toString());
+    }
+
+    public Double sum_num (Double a, Double b){
+        return a + b;
     }
 
 }
