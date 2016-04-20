@@ -20,8 +20,8 @@ public class UnitAdd_Tests extends ActivityInstrumentationTestCase2 {
         mainActivity = (MainActivity) getActivity();
 
         //EditText input_1 = (EditText) mainActivity.findViewById(R.id.edit_1);
-        Double res = mainActivity.sum_num(1.0,2.0);
-        assertEquals(res, 3.0);
+        Double res = mainActivity.sum_num(3.0,2.0);
+        assertEquals(res, 1.0);
     }
 }
 
