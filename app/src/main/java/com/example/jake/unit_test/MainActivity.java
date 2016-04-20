@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public Double sum_num (Double a, Double b){
-        return a + b;
+        return a - b;
     }
 
 }
